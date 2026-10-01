@@ -92,6 +92,66 @@ body{
 }
 
 .contenedor_sobremi{
-    padding: 5.5rem;
+    padding: 5.5rem 5.5rem 0 5.5rem;
     color: var(--colorBlancoGris);
+}
+.contenedor_sobremi h3{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.contenedor_sobremi p{
+    font-size: 1.6rem;
+    text-align: justify;
+}
+.listaContenido{
+    margin-top: 1rem;
+}
+.listaContenido li{
+    justify-content: center;
+    margin: 0.5rem 0 0.5rem 4rem;
+    font-size: 1.5rem;
+}
+.contenedor_tecnologias{
+    margin-top: 3.5rem;
+    text-align: center;
+}
+.contenedor_tecnologias h3{
+    font-size: 3rem;
+}
+.contenedor_tecnologias_leg{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.contenedor_tec{
+    margin: 3rem;
+}
+.contenedor_tec i{
+    font-size: 5rem;
+}
+.contenedor_tec i:hover{
+    font-size: 5.1rem;
+    color: var(--colorVerdeGit2);
+}
+
+
+
+.contenedor_exp{
+
+}
+
+.contenedor_exp_log{
+    border: 1px solid var(--colorVerdeGit1);
+    display: flex;
+    align-items: center;
+}
+.contenedor_exp_log div{
+    
+}
+.contenedor_exp_log i{
+    font-size: 5rem;
+}
+
+.contenedor_inf{
+
 }

@@ -11,4 +11,10 @@
     .contenedor_info_perfil{
         margin-top: 5rem;
     }
+
+    .contenedor_tecnologias_leg{
+        display: grid;
+        /* justify-content: center; */
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
