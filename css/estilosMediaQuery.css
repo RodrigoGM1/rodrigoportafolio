@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+    .contenedor{
+        display: block;
+    }
+    .contenedor_img_perfil, .contenedor_info_perfil{
+        padding: 0;
+    }
+    .contenedor_img_perfil{
+        text-align: center;
+    }
+    .contenedor_info_perfil{
+        margin-top: 5rem;
+    }
+}
