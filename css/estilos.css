@@ -91,6 +91,7 @@ body{
     color: var(--colorVerdeGit1);
 }
 
+
 .contenedor_sobremi{
     padding: 5.5rem 5.5rem 0 5.5rem;
     color: var(--colorBlancoGris);
@@ -105,11 +106,6 @@ body{
 }
 .listaContenido{
     margin-top: 1rem;
-}
-.listaContenido li{
-    justify-content: center;
-    margin: 0.5rem 0 0.5rem 4rem;
-    font-size: 1.5rem;
 }
 .contenedor_tecnologias{
     margin-top: 3.5rem;
@@ -130,28 +126,59 @@ body{
     font-size: 5rem;
 }
 .contenedor_tec i:hover{
-    font-size: 5.1rem;
+    transform: translateY(-8px);
     color: var(--colorVerdeGit2);
 }
 
-
-
 .contenedor_exp{
-
+    margin-bottom: 2rem;
 }
 
 .contenedor_exp_log{
-    border: 1px solid var(--colorVerdeGit1);
+    border-bottom: 1px solid var(--colorVerdeGit1);
     display: flex;
     align-items: center;
+    padding-bottom: 1rem; 
+    
 }
 .contenedor_exp_log div{
-    
+    border-right: 1px solid var(--colorBlancoGris);
+    padding: 1.2rem;
 }
 .contenedor_exp_log i{
     font-size: 5rem;
 }
-
-.contenedor_inf{
-
+.contenedor_exp_log p{
+    margin-left: 4rem;
+    font-size: 2rem;
 }
+.contenedor_inf{
+    padding: 1rem 0;
+    margin-left: 5.5rem;
+    text-align: justify;
+}
+.listaContenido li{
+    /* justify-content: center; */
+    margin:  1.6rem 0;
+    font-size: 1.6rem;
+}
+.listaContenido ul li{
+    margin: 0.5rem 0;
+}
+
+.contenedor_proyectos{
+    background-color: var(--colorNegro);
+    padding: 5.5rem 5.5rem 0 5.5rem;
+}
+.contenedor_proyectos h3{
+    font-size: 3rem;
+    color: var(--colorBlancoGris);
+    margin-bottom: 2rem;
+}
+.contenedor_proyectos p{
+    font-size: 1rem;
+    color: var(--colorBlancoGris);
+}
+
+    /* transform: translateY(-8px);
+    box-shadow: var(--shadow-md); */
