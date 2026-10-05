@@ -166,19 +166,20 @@ body{
     margin: 0.5rem 0;
 }
 
-.contenedor_proyectos{
+.contenedor_proyect{
     background-color: var(--colorNegro);
     padding: 5.5rem 5.5rem 0 5.5rem;
+    color: var(--colorBlancoGris);
 }
-.contenedor_proyectos h3{
+.contenedor_proyect h3{
     font-size: 3rem;
-    color: var(--colorBlancoGris);
-    margin-bottom: 2rem;
 }
-.contenedor_proyectos p{
-    font-size: 1rem;
-    color: var(--colorBlancoGris);
-}
+.contenedor_proyectos{
 
-    /* transform: translateY(-8px);
-    box-shadow: var(--shadow-md); */
+}
+.contenedor_proyecto_nomProy{
+    /* display:  flex; */
+}
+.contenedor_proyecto{
+
+}
