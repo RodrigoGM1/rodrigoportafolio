@@ -33,9 +33,7 @@ body{
     background-color: var(--colorFondo);
 }
 .contenedor{
-    /* margin: 5rem; */
     padding: 5.5rem;
-    /* Pensando si lo coloco en otro contendor */
     display: flex;
     align-items: center;
     justify-content: center;

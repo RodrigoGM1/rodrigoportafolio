@@ -10,7 +10,16 @@
 @media screen and (max-width: 768px) {
     .contenedor{
         display: block;
+        padding: 2.5rem;
     }
+    .contenedor_img_perfil img{
+        max-width: 85%;
+    }
+
+    .contenedor_sobremi{
+        padding: 2.5rem 2.5rem 0 2.5rem;
+    }
+
     .contenedor_img_perfil, .contenedor_info_perfil{
         padding: 0;
     }
@@ -25,6 +34,10 @@
         display: grid;
         /* justify-content: center; */
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contenedor_proyect{
+        padding: 2.5rem 2.5rem 1rem 2.5rem;
     }
 
     .contenedor_proyectos{
