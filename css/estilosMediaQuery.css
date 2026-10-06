@@ -1,3 +1,12 @@
+:root{
+    --colorNegro: #232925;
+    --colorFondo: #101411;      /* color negro tomado de github toolkit */
+    --colorVerdeGit1: #0FBF3E;
+    --colorVerdeGit2: #8CF2A6;
+    --colorVerdeGit5: #08872B;
+    --colorBlancoGris: #F2F5F3;
+}
+
 @media screen and (max-width: 768px) {
     .contenedor{
         display: block;
@@ -16,5 +25,9 @@
         display: grid;
         /* justify-content: center; */
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contenedor_proyectos{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
