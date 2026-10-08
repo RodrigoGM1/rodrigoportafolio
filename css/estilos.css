@@ -218,32 +218,16 @@ body{
     margin-left: 0.5rem;
 }
 
-/* .contenedor_proyecto{
-    background-color: var(--colorFondo);
-    border-radius: 1rem;
-    padding: 2rem;
-    opacity: 0.9;
-    border: 1px solid var(--colorVerdeGit2);
+.contenedor_redes{
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
 }
-.contenedor_proyecto h4{
-    font-size: 2rem;
-}
-.contenedor_proyecto_nomProy{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-.contenedor_proyecto_desProy{
-    margin-top: 4rem;
-    padding: 0 0 3rem 0;
-}
-.contenedor_proyecto_desProy p{
-    font-size: 1.4rem;
-    text-align: justify;
-}
-.contenedor_proyecto_enlProy{
-
-}
-.contenedor_proyecto_enlProy a{
-    font-size: 2.5rem;
+.contenedor_redes a{
     color: var(--colorBlancoGris);
-} */
+    font-size: 4rem;
+    margin: 0 2rem;
+}
+.contenedor_redes a:hover{
+    color: var(--colorVerdeGit2);
+}
