@@ -217,6 +217,9 @@ body{
     font-size: 2.5rem;
     margin-left: 0.5rem;
 }
+.contenedor_proyecto_enlaces a:hover{
+    color: var(--colorVerdeGit2);
+}
 
 .contenedor_redes{
     text-align: center;
