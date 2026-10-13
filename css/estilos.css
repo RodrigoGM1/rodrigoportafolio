@@ -1,7 +1,8 @@
 /* Declaracion de las variables globales */
 :root{
+    /* color negro tomado de github toolkit */
     --colorNegro: #232925;
-    --colorFondo: #101411;      /* color negro tomado de github toolkit */
+    --colorFondo: #101411;
     --colorVerdeGit1: #0FBF3E;
     --colorVerdeGit2: #8CF2A6;
     --colorVerdeGit5: #08872B;
@@ -233,4 +234,9 @@ body{
 }
 .contenedor_redes a:hover{
     color: var(--colorVerdeGit2);
+}
+
+.enlace{
+    color: var(--colorVerdeGit5);
+    border-bottom: 1px solid var(--colorVerdeGit5);
 }
